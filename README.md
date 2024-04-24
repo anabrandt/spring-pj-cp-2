@@ -2,11 +2,11 @@
 
 CP II - **Java Advanced** aplicado em 24/04/2024.
 
-| ![](documentacao/fiap.jpg)               | **Java Advanced** |
-|------------------------------------------|-------------------|
-| **ALUNO:**                               | **TURMA:** 2TDSPJ |
-| **PROFESSOR:** Benefrancis do Nascimento | 24/04/2024        |
-| **CP II**                                | ****              |
+| ![](documentacao/fiap.jpg)                                                 | **Java Advanced** |
+|----------------------------------------------------------------------------|-------------------|
+| **ALUNO:** Ana Carolina Tavares RM552283<br/>Sofia Sprocatti Silva RM99208 | **TURMA:** 2TDSPJ |
+| **PROFESSOR:** Benefrancis do Nascimento                                   | 24/04/2024        |
+| **CP II**                                                                  | ****              |
 
 # Sumário
 
