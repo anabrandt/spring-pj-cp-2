@@ -18,9 +18,7 @@ public class ValidationErrorResponse {
         errors.add( error );
     }
 
-
     @Data
-    // classe interna para representar um erro de validação
     public static class ValidationError {
         private String field;
         private String message;

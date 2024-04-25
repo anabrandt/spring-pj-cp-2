@@ -11,6 +11,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
+@Entity
 @Table(name = "TB_CARACTERISTICA", uniqueConstraints = {
 /**
  * UK para garantir que não se tenha mais de uma caracteristica com o mesmo nome.
@@ -24,7 +25,6 @@ public class Caracteristica {
     @Column(name = "ID_CARACTERISTICA")
     private Long id;
 
-    //30 digitos
     @Size(max = 30)
     @Column(name = "NOME")
     private String nome;

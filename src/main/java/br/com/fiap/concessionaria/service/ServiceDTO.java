@@ -29,6 +29,8 @@ public interface ServiceDTO<Entity, Request, Response> {
      */
     public Entity toEntity(Request dto);
 
+
+
     /**
      * Transforma uma Entidade em um DTO de Resposta (ResponseDTO)
      *

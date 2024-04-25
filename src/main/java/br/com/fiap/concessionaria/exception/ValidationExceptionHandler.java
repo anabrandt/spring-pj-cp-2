@@ -61,20 +61,14 @@ public class ValidationExceptionHandler {
         response.setMessage( ex.getMessage() );
         response.setLocalizedMessage( ex.getLocalizedMessage() );
         response.setEndpoint( getEndpointFromRequest( request ) );
-
-        // Aqui você pode adicionar informações adicionais ao objeto ErrorResponse, se necessário.
-
         return new ResponseEntity<>( response, HttpStatus.INTERNAL_SERVER_ERROR );
     }
-
-
     private String getEndpointFromRequest(HttpServletRequest request) {
         return request.getRequestURI();
     }
 
 
     @Data
-    // Defina a classe ErrorResponse conforme necessário
     public static class ErrorResponse {
         private int status;
         private String message;
@@ -82,6 +76,5 @@ public class ValidationExceptionHandler {
         private String title;
         private String endpoint;
 
-        // Getters e Setters
     }
 }
