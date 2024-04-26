@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;
 import org.springframework.stereotype.Service;
 
+import javax.xml.catalog.Catalog;
 import java.util.Collection;
 
 @Service
