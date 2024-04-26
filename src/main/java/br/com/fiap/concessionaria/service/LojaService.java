@@ -36,6 +36,7 @@ public class LojaService implements ServiceDTO<Loja, LojaRequest, LojaResponse> 
                 .nome(dto.nome())
                 .build();
     }
+
     @Override
     public LojaResponse toResponse(Loja e) {
         var lista = e.getVeiculosComercializados()
